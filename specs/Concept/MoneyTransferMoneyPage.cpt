@@ -1,0 +1,54 @@
+Created by mehmet on 11.01.2025
+
+This is a concept file with following syntax for each concept.
+# Para transferi penceresi açılır ve kontrol edilir
+* Para transferi butonuna tıklanır
+* Para transferi penceresi elementleri kontrol edilir
+
+# Para transferi işlemi gerçekleştirilir ve kontrol edilir
+* Para transferi butonuna tıklanır
+* Gönderilecek para tutarı "500.00" girilir
+* "1" saniye bekle
+* "SendAmountValue" li elementi bul ve degerini "GönderilenMiktar" olarak sakla
+* Para gönder butonuna tıklanır
+* "2" saniye bekle
+* "SendingAmountValue" li elementin text degerini hafizada "GönderilenMiktar" olarak saklanan text ile karsilastir
+
+# Gönderici hesabı ve alıcı hesap değiştirilerek para transferi gerçekleştirilir
+* Para transferi butonuna tıklanır
+* "1" saniye bekle
+* Gönderici hesap listesi butonuna tıklanır
+* "SenderAccount" elementinde "Hesabım" texine sahip elementine tıkla
+* "1" saniye bekle
+* Alıcı hesap listesi butonuna tıklanır
+* "1" saniye bekle
+* "ChangeAccount" elementinde "Testinium-3" texine sahip elementine tıkla
+* "1" saniye bekle
+* Gönderilecek para tutarı "5000" girilir
+* "SendAmountValue" li elementi bul ve degerini "GönderilenMiktar" olarak sakla
+* Para gönder butonuna tıklanır
+* "3" saniye bekle
+* "SendingAmountValue" li elementin text degerini hafizada "GönderilenMiktar" olarak saklanan text ile karsilastir
+
+
+# Karttan para yükleme işlemi gerçekleştirilir ve kontrol edilir
+* Para ekle butonuna tıklanır
+* Kart numarası "1234123412341234" girilir
+* Kart sahibi "Mehmet Uludağ" girilir
+* Son kullanma tarihi "1026" girilir
+* Cvv "110" girilir
+* Karttan yüklenecek tutar "750.00" girilir
+* "SendCardAmountValue" li elementi bul ve degerini "YüklenenTutar" olarak sakla
+* Karttan ekle butonuna tıklanır
+* "1" saniye bekle
+* "SendingAmountValue" li elementin text degerini hafizada "YüklenenTutar" olarak saklanan text ile karsilastir
+
+# Hesap adı <text> değiştirilir ve kontrol edilir
+* Hesap adı değiştir butonuna tıklanır
+* "AccountName" elementinin text alanini temizle
+* "1" saniye bekle
+* Hesap adı değiştirme alanına yeni hesap adı <text> girilir
+* "AccountName" li elementi bul ve degerini "YeniHesapAdi" olarak sakla
+* Hesap adı güncelle butonuna tıklanır
+* "1" saniye bekle
+* "NewAccountName" li elementin text degerini hafizada "YeniHesapAdi" olarak saklanan text ile karsilastir

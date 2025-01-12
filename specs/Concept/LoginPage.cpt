@@ -1,0 +1,8 @@
+# Catchylabs uygulama web sayfasi acilir
+* "https://catchylabs-webclient.testinium.com" adresine git
+* "1" saniye bekle
+
+#Login olunur
+* Login ekranında kullanıcı adı "mehmet.uludag@testinium.com" girilir
+* Login ekranında şifre "TestiniumQE" girilir
+* Login butonuna tıklanır

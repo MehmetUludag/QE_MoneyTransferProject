@@ -1,0 +1,37 @@
+[
+  {
+    "key": "SendingAmountValue",
+    "value": "//div[@class='css-175oi2r r-1loqt21 r-1otgn73 r-1awozwy r-zpn6ln r-qklmqi r-18u37iz r-xd6kpl r-tskmnb']//div[@class='css-146c3p1 r-1ozpqpt r-yv33h5 r-1b43r93']",
+    "type": "xpath"
+  },
+  {
+  "key": "SendAmountValue",
+  "value": "//input[@inputmode='numeric']",
+  "type": "xpath"
+  },
+  {
+  "key": "SendCardAmountValue",
+  "value": "//div[text()='Amount']/following-sibling::input",
+  "type": "xpath"
+  },
+  {
+  "key": "AccountName",
+  "value": "//div[text()='Account name']/following-sibling::div//input",
+  "type": "xpath"
+  },
+  {
+  "key": "NewAccountName",
+  "value": " //div[text()='Account name']/following-sibling::div",
+  "type": "xpath"
+  },
+  {
+  "key": "ChangeAccount",
+  "value": "(//select)[2]",
+  "type": "xpath"
+  },
+  {
+  "key": "SenderAccount",
+  "value": "//select",
+  "type": "xpath"
+  }
+]
