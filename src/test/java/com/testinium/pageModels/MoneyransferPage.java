@@ -127,15 +127,10 @@ public class MoneyransferPage extends BaseTest {
     }
 
     @Step("Para transferi butonuna tıklanır")
-    public void clickTransferMoneyButton(){
-        transferBtn.click();
-        logger.info("Para transferi butonuna tiklandi");
-    }
+    public void clickTransferMoneyButton(){transferBtn.click();}
 
     @Step("Gönderilecek para tutarı <text> girilir")
-    public void enterAmount(String text){
-        amountInput.sendKeys(text);
-    }
+    public void enterAmount(String text){amountInput.sendKeys(text);}
 
     @Step("Para gönder butonuna tıklanır")
     public void clickSendMoneyButton(){

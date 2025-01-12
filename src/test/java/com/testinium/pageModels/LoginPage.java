@@ -57,6 +57,7 @@ public class LoginPage extends BaseTest {
     public void clickLoginBtn() {
         baseSteps.clickElementWithText("Login");
         baseSteps.waitBySeconds(5);
+        logger.info("Login butonun tiklandi");
     }
 
     @Step("Login ekranı kontrol edilir")
@@ -64,6 +65,7 @@ public class LoginPage extends BaseTest {
         assertTrue(usernameInput.isDisplayed());
         assertTrue(passwordInput.isDisplayed());
         assertTrue(loginBtn.isDisplayed());
+        logger.info("Login ekrani kontrol edildi");
     }
 
 }
